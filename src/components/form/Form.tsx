@@ -336,7 +336,7 @@ const Form = () => {
                   placeholderText={field.placeholder}
                   wrapperClassName="w-full !p-0 h-full bg-white border border-light rounded-lg"
                   className="px-4 py-4 bg-white w-full h-full rounded-lg focus:outline-none"
-                  aria-required={field.required}
+                  aria-required={field.required ? "true" : "false"}
                   isClearable={true}
                 />
                 <div className="pointer-events-none absolute top-3.5 right-4">
